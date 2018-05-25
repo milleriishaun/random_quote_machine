@@ -1,0 +1,95 @@
+.header {
+    height: 100px;
+  }
+  
+  .box {
+    font-size: 34px;
+    background-color: #afafaf;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 600px;
+    border-radius: 10px;
+  }
+  
+  #quote-content {
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+    opacity: 0;
+  }
+  
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    transition: 0.3s;
+    border-style: none;
+    opacity: 1;
+  }
+  
+  button:hover {
+    border-radius: 5px;
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s;
+    text-shadow: 1px 1px 1px blue;
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  button.tumblr {
+    width: 50px;
+    height: 51px;
+  }
+  
+  button.tumblr:hover {
+    border-radius: 5px;
+    transition: 0.3s;
+    border-style: none;
+  }
+  
+  #quote-title {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: thin; /*this doesn't work*/
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: right;
+  }
+  
+  #bottomGrey {
+    position: relative;
+    top: 4px;
+    padding-left: 50px;
+  /*   height: 0px; */
+    background-color: #afafaf;
+  }
+  
+  .extraSpace1 {
+    width: 10px;
+  }
+  
+  .extraSpace2 {
+    width: 280px;
+  }
+  
+  .noSelect {
+    pass;
+    display: block;
+    text-align: center;
+  }
+  
+  button.newQuote2 {
+    width: 100px;
+    height: 45px;
+  }
+  
+  #newQuote2 {
+    pass;
+  }
+  
+  a.noSelect {
+      color: #000000;
+      text-decoration: none;
+  }
